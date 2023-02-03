@@ -158,3 +158,27 @@ a {
     font-size: 1.8rem;
   }
 }
+
+/* icons */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-container {
+  background: #f3f9fa;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon--primary {
+  fill: var(--color-primary);
+}
+
+.icon--secondary {
+  fill: var(--color-secondary);
+}
