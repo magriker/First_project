@@ -243,3 +243,52 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* inputs */
+
+.input {
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  display: inline-block;
+  font-size: 2rem;
+  outline: none;
+
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+  color: var(--color-body);
+}
+
+.input-group {
+  display: flex;
+  justify-content: end;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px 10px #f7f9fa;
+  padding: 0 1rem;
+}
+
+.input-group .input {
+  padding: 1.5rem 1rem;
+  flex-grow: 1;
+  border: 0;
+}
+
+.input-group .btn {
+  margin: 5px 0;
+}
+
+.icon--search {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  margin-right: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}

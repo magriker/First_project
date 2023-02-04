@@ -28,6 +28,12 @@
 
     <span class="badge badge--secondary badge--small">10% OFF</span>
 
+    <button class="btn btn--block btn--outline">Search</button>
+    <a href="#" class="btn btn--block btn--secondary">Search</a>
+    <button class="btn btn--content btn--accent">Search</button>
+
+    <input type="text" class="input" placeholder="Enter domain name here..." />
+
     <ul class="list list--tick">
       <li class="list__item">Item1</li>
       <li class="list__item">Item2</li>
@@ -45,8 +51,18 @@
       </svg>
     </sapn>
 
-    <button class="btn btn--block btn--outline">Search</button>
-    <a href="#" class="btn btn--block btn--secondary">Search</a>
-    <button class="btn btn--content btn--accent">Search</button>
+    <div class="input-group">
+      <input
+        type="text"
+        class="input"
+        placeholder="Enter domain name here..."
+      />
+      <button class="btn btn--accent">
+        <svg class="icon icon--primary icon--search">
+          <use xlink:href="/images/sprite.svg#search"></use>
+        </svg>
+        Search
+      </button>
+    </div>
   </body>
 </html>
