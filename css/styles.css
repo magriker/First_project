@@ -385,3 +385,28 @@ a {
     font-size: 1.7rem;
   }
 }
+
+/* media objects */
+
+.media {
+  display: flex;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__title {
+  font-size: 2.4rem;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.media__paragraph {
+  font-size: 2rem;
+  color: #6b7378;
+}
+
+.media__image {
+  margin-top: 1rem;
+}
