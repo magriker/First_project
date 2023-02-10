@@ -49,6 +49,14 @@ p {
   margin-top: 0;
 }
 
+.header--white {
+  color: var(--color-white);
+}
+
+.paragraph--white {
+  color: var(--color-white);
+}
+
 @media screen and (min-width: 1024px) {
   /* Typography */
   body {
@@ -209,7 +217,7 @@ a {
 .btn {
   border-radius: 40px;
   cursor: pointer;
-  display: inline;
+
   font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
@@ -253,6 +261,11 @@ a {
 
 .btn--accent:hover {
   background: #ec3000;
+}
+
+.btn--streched {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -522,5 +535,44 @@ a {
 
   .testimonial .quote {
     margin-left: 6rem;
+  }
+}
+
+/* Callouts */
+.callout {
+  padding: 4rem;
+
+  border-radius: 10px;
+}
+
+.callout__content {
+  text-align: center;
+}
+
+.callout--primary {
+  background: var(--color-primary);
+}
+
+.callout__headding {
+  margin-top: 0;
+}
+
+.callout .btn {
+  align-self: center;
+  justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout__content {
+    text-align: start;
+  }
+
+  .callout .btn {
+    justify-self: start;
+    margin-left: 5rem;
+  }
+
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
   }
 }
