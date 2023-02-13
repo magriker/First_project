@@ -731,6 +731,8 @@ a {
   }
 }
 
+/* Hero block */
+
 .hero {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
@@ -792,4 +794,46 @@ a {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Card block */
+
+.feature {
+  gap: 4rem;
+  margin: 12rem 0;
+}
+
+.feature__headding {
+  margin-top: 1rem;
+}
+
+.feature__paragraph {
+  line-height: 1.5;
+}
+
+.feature__picture {
+  justify-self: center;
+}
+
+.feature__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  /* Typography */
+  .feature .feature__paragraph {
+    font-size: 1.8rem;
+  }
+
+  .feature .feature__headding {
+    font-size: 2.4rem;
+  }
+
+  .feature .link-arrow {
+    font-size: 1.5rem;
+  }
+
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
 }
